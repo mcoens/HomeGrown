@@ -43,6 +43,7 @@ void setup()
 {
   flower.Initialization();//Initialization for the watering kit
   Serial.begin(115200);//Buad Rate is set as 115200bps
+  Serial.print("Serial started")
 }
 void loop()
 {
