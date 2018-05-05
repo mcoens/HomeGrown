@@ -2,7 +2,11 @@
 
 int soilHumidity;
 int setHumidity = 50;      //Set the pump trigger threshold
+
 void setup() {
+  Serial.begin(9600);
+  Serial.println("Serial started");
+
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
 

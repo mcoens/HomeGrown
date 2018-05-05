@@ -9,6 +9,7 @@ int soilHumidity;   //soil moisture
 
 void setup(){
   Serial.begin(9600);
+  Serial.println("Serial started");
 }
 
 void loop(){
